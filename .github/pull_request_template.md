@@ -5,6 +5,7 @@
 ## Definition of done (playbook conventions/definition-of-done.md)
 
 - [ ] Tests and typecheck pass; the repo's CLAUDE.md rules hold.
+- [ ] The change was run, not only tested (playbook conventions/verification.md); "Checks" below says what was seen.
 - [ ] Docs that describe what changed are changed here.
 - [ ] A shared rule or vendored copy is fixed upstream (playbook, gelopard/tools), not only here.
 - [ ] New stored data (a table, column, binding, upload kind, counter field): its inventory entry in the playbook's `architecture/model.yaml` is merged or linked here.
@@ -16,4 +17,4 @@
 
 ## Checks
 
-<!-- What ran, and what it showed. -->
+<!-- What ran, the path driven, and what it showed; a screenshot for a change a player sees. If it could not be run: "Not run" and why. -->
