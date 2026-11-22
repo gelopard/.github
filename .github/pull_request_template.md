@@ -18,3 +18,4 @@
 ## Checks
 
 <!-- What ran, the path driven, and what it showed; a screenshot for a change a player sees. If it could not be run: "Not run" and why. -->
+<!-- A change a player sees: the comparison with the issue's "Approved look" and the differences kept, or "No approved look" (playbook conventions/verification.md). -->
