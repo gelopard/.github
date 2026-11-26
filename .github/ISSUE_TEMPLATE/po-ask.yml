@@ -1,0 +1,15 @@
+name: Ask the PO
+description: A question or idea for this repo's product owner, answered at its next weekly run. For a repo with no PO, open a blank issue.
+labels: ["po:ask"]
+body:
+  - type: textarea
+    id: ask
+    attributes:
+      label: Your question or idea
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why now
+      description: What you saw that made you ask, with a link if there is one.

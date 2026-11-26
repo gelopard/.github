@@ -1,0 +1,26 @@
+name: Defect
+description: Something does not work as it should.
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did and what you saw.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What should have happened
+  - type: input
+    id: where
+    attributes:
+      label: Where
+      description: Build or version, and the device or browser.
+      placeholder: 0.19.0 on iPhone 15, or staging in Safari
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshot or log
+      description: Drop files here.
